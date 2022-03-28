@@ -30,7 +30,7 @@ services:
       - kibana
     ports:
       - "8000:8000"
-    command: sh -c "python manage.py runserver 0.0.0.0:8000"
+    command: sh -c "python DoCheckerBack/manage.py runserver 0.0.0.0:8000"
   kibana:
     container_name: DoCheckerKibana
     image: docker.elastic.co/kibana/kibana:8.0.0
