@@ -1,0 +1,36 @@
+<!-- (click)="getStudents()" -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <a href="/students"
+         role="button"
+         class="btn btn-outline-primary btn-lg btn-block text-center">
+        <span><i class="fa fa-users"></i></span>
+        <br>Students
+      </a>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-md">
+      <div class="container">
+        <table class="table table-bordered table-striped">
+          <thead>
+          <tr>
+            <th>Fullname</th>
+            <th>Email</th>
+            <th>Phone</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let student of students">
+            <td><span>{{student.fullname}}</span></td>
+            <td><span>{{student.email}}</span></td>
+            <td><span>{{student.phone}}</span></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
