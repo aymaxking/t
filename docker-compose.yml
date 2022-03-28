@@ -21,7 +21,7 @@ services:
       - "9200:9200"
   django:
     build:
-      dockerfile: ./Dockerfile
+      dockerfile: DoCheckerBack/Dockerfile
     container_name: DoCheckerDjango
     volumes:
       - .:/app
