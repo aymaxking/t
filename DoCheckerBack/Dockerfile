@@ -9,4 +9,3 @@ WORKDIR /DoChecker/DoCheckerBack
 COPY .. .
 COPY --from=build-stage /root/.local/ /usr/local/
 CMD ["/bin/bash"]
-
