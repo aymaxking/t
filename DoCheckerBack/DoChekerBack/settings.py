@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'sprint0',
     'django_elasticsearch_dsl',
     'rest_framework_swagger',
+    'corsheaders',
+
 ]
 
 MIDDLEWARE = [
@@ -48,6 +50,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'DoChekerBack.urls'
@@ -128,3 +132,7 @@ ELASTICSEARCH_DSL = {
         'hosts': 'DoCheckerElasticSearch:9200'
     }
 }
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:4200"
+]
