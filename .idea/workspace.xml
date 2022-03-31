@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="834c3eb1-3aaa-42ca-960a-a5bc5569f4e2" name="Changes" comment="first" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="271Os5S4SClhSV2iSNIwJA12gtT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\ayman\OneDrive\Bureau\STAGE\DoChecker\DoCheckerFront\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ayman\OneDrive\Bureau\STAGE\DoChecker\DoCheckerFront" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ayman\OneDrive\Bureau\STAGE\DoChecker\DoCheckerBack" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="834c3eb1-3aaa-42ca-960a-a5bc5569f4e2" name="Changes" comment="" />
+      <created>1648484341802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648484341802</updated>
+      <workItem from="1648484345433" duration="11804000" />
+      <workItem from="1648509028920" duration="782000" />
+      <workItem from="1648511409158" duration="379000" />
+      <workItem from="1648515842607" duration="2874000" />
+      <workItem from="1648560553664" duration="86000" />
+      <workItem from="1648560683773" duration="249000" />
+      <workItem from="1648561164815" duration="318000" />
+      <workItem from="1648564396642" duration="1537000" />
+      <workItem from="1648571518156" duration="7638000" />
+      <workItem from="1648595729105" duration="6340000" />
+      <workItem from="1648602498474" duration="111000" />
+      <workItem from="1648602749020" duration="348000" />
+      <workItem from="1648603217306" duration="34000" />
+      <workItem from="1648603372840" duration="52000" />
+      <workItem from="1648603570568" duration="257000" />
+      <workItem from="1648639469785" duration="1843000" />
+      <workItem from="1648648381809" duration="9857000" />
+      <workItem from="1648659254823" duration="11000" />
+      <workItem from="1648659276210" duration="7000" />
+      <workItem from="1648661051331" duration="5197000" />
+      <workItem from="1648732935535" duration="6352000" />
+      <workItem from="1648739517814" duration="4491000" />
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1648486511969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648486511969</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first">
+      <created>1648496125278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648496125278</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first">
+      <created>1648560708283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648560708283</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first">
+      <created>1648743969074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648743969074</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.dockerignore" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="nginx.conf" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+</project>
