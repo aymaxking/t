@@ -1,6 +1,6 @@
 # DoChecker
 
-#pour lancer le projet : docker-compose up depuis le dossier Dochecker
+# Pour lancer le projet : docker-compose up depuis le dossier Dochecker
 
 Projet de développement autour de Python/Angular
 
