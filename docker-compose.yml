@@ -1,0 +1,53 @@
+version: "3.9"
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.0.0
+    container_name: DoCheckerElasticSearch
+    environment:
+      - xpack.security.enabled=false
+      - discovery.type=single-node
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    cap_add:
+      - IPC_LOCK
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+  django:
+    build:
+      context: .
+      dockerfile: DoCheckerBack/Dockerfile
+    container_name: DoCheckerDjango
+    volumes:
+      - .:/app
+    depends_on:
+      - elasticsearch
+      - kibana
+    ports:
+      - "8000:8000"
+    command: sh -c "python DoCheckerBack/manage.py runserver 0.0.0.0:8000"
+  kibana:
+    container_name: DoCheckerKibana
+    image: docker.elastic.co/kibana/kibana:8.0.0
+    ports:
+      - "5601:5601"
+  angular:
+    build:
+      context: .
+      dockerfile: DoCheckerFront/Dockerfile
+    ports:
+      - "4200:80"
+    container_name: DoCheckerAngular
+
+
+
+volumes:
+  elasticsearch-data:
+    driver: local
+
