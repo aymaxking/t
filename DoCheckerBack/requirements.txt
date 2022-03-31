@@ -10,3 +10,4 @@ django-rest-swagger
 pyyaml
 gunicorn==20.1.0
 django-cors-headers
+psycopg2

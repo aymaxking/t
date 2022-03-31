@@ -1,16 +1,21 @@
 from django.db import models
+import django.db.models.options as options
 
 
-# Create your models here.
 
 class Type(models.Model):
     title = models.CharField(max_length=30)
+    class Meta:
+        app_label = 'types'
 
 
 class Client(models.Model):
     fullname = models.CharField(max_length=30, blank=True, null=True)
     email = models.CharField(max_length=30, blank=True, null=True)
     phone = models.CharField(max_length=20, blank=True, null=True)
+    class Meta:
+        app_label = 'clients'
+
 
 # class Doc(models.Model):
 #     client = models.ForeignKey(Client,on_delete=models.CASCADE())
