@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="834c3eb1-3aaa-42ca-960a-a5bc5569f4e2" name="Changes" comment="first" />
+    <list default="true" id="834c3eb1-3aaa-42ca-960a-a5bc5569f4e2" name="Changes" comment="first">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/454ac3e6-d23f-4904-a710-bf7bd3fba0c1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/454ac3e6-d23f-4904-a710-bf7bd3fba0c1/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/proxy.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/proxy.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/global-variables.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/global-variables.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/models/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/models/client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/models/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/models/type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/modules/sprint0/sprint0-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/modules/sprint0/sprint0-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/services/sprint0/sprint0.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/services/sprint0/sprint0.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DoCheckerFront" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -24,6 +41,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1687c29e-da47-4db0-b38c-bd31cf7c1a93" />
+        <option name="url" value="https://github.dxc.com/aelidrissi/DoChecker.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +64,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -52,6 +76,30 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ayman\OneDrive\Bureau\STAGE\DoChecker\DoCheckerBack" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,7 +130,14 @@
       <workItem from="1648659276210" duration="7000" />
       <workItem from="1648661051331" duration="5197000" />
       <workItem from="1648732935535" duration="6352000" />
-      <workItem from="1648739517814" duration="4491000" />
+      <workItem from="1648739517814" duration="4938000" />
+      <workItem from="1648744517841" duration="1092000" />
+      <workItem from="1648746016805" duration="427000" />
+      <workItem from="1648747110178" duration="61000" />
+      <workItem from="1648815984455" duration="2121000" />
+      <workItem from="1648820172209" duration="625000" />
+      <workItem from="1648829401419" duration="378000" />
+      <workItem from="1648834070602" duration="1593000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1648486511969</created>
