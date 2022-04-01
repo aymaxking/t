@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="834c3eb1-3aaa-42ca-960a-a5bc5569f4e2" name="Changes" comment="first">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/454ac3e6-d23f-4904-a710-bf7bd3fba0c1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/454ac3e6-d23f-4904-a710-bf7bd3fba0c1/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+    <list default="true" id="834c3eb1-3aaa-42ca-960a-a5bc5569f4e2" name="Changes" comment="second">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/proxy.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/proxy.conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/global-variables.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/global-variables.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/models/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/models/client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/models/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/models/type.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/modules/sprint0/sprint0-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/modules/sprint0/sprint0-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoCheckerFront/src/app/services/sprint0/sprint0.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/src/app/services/sprint0/sprint0.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DoCheckerFront" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -137,7 +122,7 @@
       <workItem from="1648815984455" duration="2121000" />
       <workItem from="1648820172209" duration="625000" />
       <workItem from="1648829401419" duration="378000" />
-      <workItem from="1648834070602" duration="1593000" />
+      <workItem from="1648834070602" duration="4166000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1648486511969</created>
@@ -167,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648743969074</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="second">
+      <created>1648835735979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648835735979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +182,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="second" />
+    <option name="LAST_COMMIT_MESSAGE" value="second" />
   </component>
 </project>
