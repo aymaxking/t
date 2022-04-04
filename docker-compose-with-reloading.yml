@@ -13,4 +13,4 @@ services:
       - "/var/run/docker.sock:/var/run/docker.sock"
       - .:/app
       - "./DoCheckerFront:/app/client"
-      - "/app/client/node_modules"
+      - node_modules:/home/node/app/node_modules

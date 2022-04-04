@@ -23,7 +23,7 @@ services:
   postgres:
     image: postgres
     volumes:
-      - postgres-data:/var/lib/postgresql/data
+      - post-data:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=DoCheckerDb
       - POSTGRES_USER=dochecker
@@ -81,13 +81,13 @@ services:
       - "4200:80"
     container_name: DoCheckerAngular
     volumes:
-      - './DoCheckerFront:/app/client'
-      - '/app/client/node_modules'
+      - ./DoCheckerFront:/DoChecker/DoCheckerFront
+      - node_modules:/home/node/app/node_modules
 
 volumes:
   elasticsearch-data:
     driver: local
-  postgres-data:
+  post-data:
   django-data:
-  angular-data:
+  node_modules:
 
