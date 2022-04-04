@@ -1,0 +1,93 @@
+version: "3.9"
+services:
+  django:
+    restart: always
+    build:
+      context: DoCheckerBack
+    container_name: DoCheckerDjango
+    environment:
+      - DB_HOST=DoCheckerPostgres
+      - DB_NAME=DoCheckerDb
+      - DB_USER=dochecker
+      - DB_PASS=dochecker
+    volumes:
+      - .:/app
+    depends_on:
+      postgres:
+        condition: service_started
+      elasticsearch:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    command: sh -c "python DoCheckerBack/manage.py migrate && python DoCheckerBack/manage.py runserver 0.0.0.0:8000 "
+  postgres:
+    image: postgres
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=DoCheckerDb
+      - POSTGRES_USER=dochecker
+      - POSTGRES_PASSWORD=dochecker
+    container_name: DoCheckerPostgres
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: DoCheckerPgadmin
+    ports:
+      - "5050:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: DoChecker@dxc.com
+      PGADMIN_DEFAULT_PASSWORD: DoChecker
+    depends_on:
+      - postgres
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.0.0
+    container_name: DoCheckerElasticSearch
+    environment:
+      - xpack.security.enabled=false
+      - discovery.type=single-node
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    cap_add:
+      - IPC_LOCK
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    healthcheck:
+      test: [ "CMD-SHELL", "curl --silent --fail localhost:9200/_cluster/health || exit 1" ]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+  kibana:
+    restart: always
+    container_name: DoCheckerKibana
+    image: docker.elastic.co/kibana/kibana:8.0.0
+    ports:
+      - "5601:5601"
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+  angular:
+    restart: always
+    build:
+      context: .
+      dockerfile: DoCheckerFront/Dockerfile
+    ports:
+      - "4200:80"
+    container_name: DoCheckerAngular
+    volumes:
+      - './DoCheckerFront:/app/client'
+      - '/app/client/node_modules'
+
+volumes:
+  elasticsearch-data:
+    driver: local
+  postgres-data:
+  django-data:
+  angular-data:
+

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="834c3eb1-3aaa-42ca-960a-a5bc5569f4e2" name="Changes" comment="second">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoCheckerFront/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/DoCheckerFront/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DoCheckerFront" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -124,7 +125,11 @@
       <workItem from="1648829401419" duration="378000" />
       <workItem from="1648834070602" duration="4166000" />
       <workItem from="1649035687320" duration="568000" />
+<<<<<<< Updated upstream
       <workItem from="1649076331312" duration="2879000" />
+=======
+      <workItem from="1649076331312" duration="4961000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1648486511969</created>
@@ -161,7 +166,25 @@
       <option name="project" value="LOCAL" />
       <updated>1648835735979</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="6" />
+=======
+    <task id="LOCAL-00006" summary="second">
+      <created>1649079280631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649079280631</updated>
+    </task>
+    <task id="LOCAL-00007" summary="second">
+      <created>1649079866134</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649079866134</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

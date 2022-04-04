@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  monitoring_watcher:
+    image: dreampathsprojekt/livereloading
+    container_name: DoCheckerMonitoring
+    privileged: true
+    environment:
+      - RELOAD_DELAY=2
+      - RESTART_TIMEOUT=1
+      - RELOAD_LABEL=single.reload
+      - OBSERVER_TYPE=0
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - .:/app
+      - "./DoCheckerFront:/app/client"
+      - "/app/client/node_modules"
